@@ -19,6 +19,7 @@ The only Python dependencies not in the standard library are:
 To use this you need to make some changes. check prerequisite.txt
 
 First run Create_Training_DATA.py to make training data by:
+
       $ python Create_Training_DATA.py      
 
 Then you can train the network:
@@ -26,4 +27,5 @@ Then you can train the network:
       $ python Model.py
       
 To predict data run:
+
       $ python predict.py
