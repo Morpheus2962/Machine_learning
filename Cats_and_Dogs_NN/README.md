@@ -20,4 +20,4 @@ The training and testing data is available from the Kaggle challenge [data page]
 
 Then you can train the network:
 
-      $ python model.py
+      $ python Model.py
