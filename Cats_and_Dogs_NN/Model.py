@@ -59,6 +59,6 @@ model.compile(loss='binary_crossentropy',
              metrics=['accuracy'])  
  
 #TRAIN OUR MODEL
-model.fit(X,y, batch_size = 32, epochs = 10, validation_split=0.3, callbacks=[tensorboard] )  
+model.fit(X,y, batch_size = 32, epochs = 20, validation_split=0.3, callbacks=[tensorboard] )  
   
 model.save('CAD_CNN_Opt.model') # save our model
