@@ -1,0 +1,11 @@
+In Create_Training_DATA.py line 9 :
+
+	Set DATADIR to location of folder "PetImages" that contain subfolders "Cat" and "Dog".
+
+
+In predict.py line 8 :
+	
+	Make a folder "samples" with 2 subfolder "Cat" and "Dog".
+	Paste your cat pics in cat folder and dog pics in dog that you want to predict
+
+	Set DATADIR to location of folder "samples" that contain subfolders "Cat" and "Dog".
