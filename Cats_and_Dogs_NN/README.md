@@ -15,9 +15,15 @@ The only Python dependencies not in the standard library are:
 
 
 **Training**
+
 To use this you need to make some changes. check prerequisite.txt
-The training and testing data is available from the Kaggle challenge [data page](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data) and should be placed in a top level `data/` directory
+
+First run Create_Training_DATA.py to make training data by:
+      $ python Create_Training_DATA.py      
 
 Then you can train the network:
 
       $ python Model.py
+      
+To predict data run:
+      $ python predict.py
