@@ -1,7 +1,7 @@
 # Cats and Dogs Convolutional Neural Network:
-  -This is my first attempt to make a Convolutional nueral network to make  a classifier.
-  -I have used Kaggle cats and dogs data as training data.
-  -I learned this all from Sentdex's tutorial. 
+  
+  
+This is my first attempt to make a Convolutional nueral network to make  a classifier. I have used Kaggle cats and dogs data as training data. I learned this all from Sentdex's tutorial. 
  
  ## Usage
 
