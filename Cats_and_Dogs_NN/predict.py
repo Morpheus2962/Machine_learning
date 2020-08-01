@@ -36,7 +36,7 @@ model = tf.keras.models.load_model("CAD_CNN_Opt.model")
 
 
 correct = 0
-total = 20
+total = len(predic_samples)
 
 for (i,j) in zip(predic_samples,label):
 	pred = model.predict(i)
